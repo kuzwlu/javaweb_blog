@@ -1,0 +1,322 @@
+/*强制显示垂直滚动条*/
+
+html {
+	overflow: scroll;
+}
+
+
+/*强制隐藏水平滚动条*/
+
+html {
+	overflow-x: hidden
+}
+
+
+/*滚动条样式*/
+
+
+/*滚动条整体部分*/
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+
+/*滚动条的轨道*/
+
+::-webkit-scrollbar-track {
+	background-color: #F6F6F6;
+	border-radius: 10px;
+}
+
+
+/*滚动条里面的小方块，能向上向下移动*/
+
+::-webkit-scrollbar-thumb {
+	background-color: #bfbfbf;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #bfbfbf;
+}
+
+
+/*边角，即两个滚动条的交汇处*/
+
+::-webkit-scrollbar-corner {
+	background-color: #179a16;
+	border-radius: 2px;
+}
+
+
+/*滚动条的轨道的两端按钮，允许通过点击微调小方块的位置*/
+
+::-webkit-scrollbar-button {
+	width: 7px;
+	height: 55.8px;
+	background-color: #FFFFFF;
+	border-radius: 0 0 3.5px 0px;
+	box-shadow: 0px 0px 3px #B0AEB2;
+}
+
+
+
+img {
+	border: 0;
+}
+
+a {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #25b15e;
+}
+
+body {
+	background-color: #f6f6f6;
+	font: 14px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif;
+	color: #58666e;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	text-align: center;
+	list-style-type: none;
+}
+
+#fuck {
+	height: 60px;
+}
+
+#header {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0px 4px #b0aeb2;
+	border-radius: 0 0px 0px 3px;
+	z-index: 50;
+}
+
+.header-main {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-logo {
+	width: 150px;
+	height: 55px;
+	float: left;
+	left: 0;
+	display: block;
+}
+
+.list {
+	float: left;
+	margin-left: 90px;
+}
+
+
+/*当前list页面显示白色下边框*/
+
+.list .on a {
+	border-bottom: 4px solid #25b15e;
+	width: 40px;
+	height: 51px;
+	display: block;
+	color: #25b15e;
+}
+
+.list li {
+	list-style-type: none;
+	float: left;
+}
+
+.list li a {
+	padding: 0px 13px;
+	height: 51px;
+	width: 40px;
+	line-height: 55px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	border-bottom: 4px solid rgba(49, 110, 70, 0);
+}
+
+.list li a:hover {
+	color: #25b15e;
+	border-color: #25b15e;
+}
+
+.list li a:active {
+	color: #25b15e;
+	border-color: #25b15e;
+}
+
+.list li a:focus {
+	color: #25b15e;
+	border-color: #25b15e;
+}
+
+.header-search {
+	float: right;
+	position: absolute;
+	top: 12px;
+	right: 100px;
+	padding: 0 30px 0 15px;
+	width: 150px;
+	height: 30px;
+	border: 1.2px solid #58666e;
+	border-radius: 30px;
+	background-color: #fff;
+}
+.header-search:hover{
+	border: 1.2px solid #25B15E;
+}
+.header-search input {
+	width: 70%;
+	height: 24px;
+	border: 0 none;
+	outline: none;
+	background-color: transparent;
+	font-size: 14px;
+	position: absolute;
+	top: 7%;
+}
+
+.header-search button {
+	padding: 0;
+    margin: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	border: 0 none;
+	outline: none;
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(49, 110, 70, 0);
+}
+
+.header-search .search {
+	background-image: url(../img/search.png);
+	float: right;
+	width: 22px;
+	height: 22px;
+	right: 10px;
+	top: 4px;
+}
+
+
+/*发现下拉菜单及点击事件*/
+
+.dropdown {
+	position: absolute;
+	width: 66px;
+	height: 50px;
+	float: right;
+	right: 25px;
+	display: block;
+}
+
+.dropdown li {
+	list-style: none;
+	text-align: left;
+}
+
+.dropdown .on a {
+	border-bottom: 4px solid #25b15e;
+	height: 51px;
+	display: block;
+	color: #25b15e;
+}
+
+.dropdown a {
+	padding: 0px 13px;
+	height: 51px;
+	width: 41px;
+	line-height: 55px;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+	border-bottom: 4px solid rgba(49, 110, 70, 0);
+}
+
+.dropdown a:hover {
+	color: #25b15e;
+	border-bottom: 4px solid #25b15e;
+}
+
+.dropdown a:active {
+	color: #25b15e;
+	border-color: #25b15e;
+}
+
+.dropbtn {
+	left: 6px;
+	position: absolute;
+	color: #333;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.btn2 {
+	content: '';
+	position: absolute;
+	top: 55%;
+	left: 49px;
+	margin-top: -4px;
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-top-color: #25b15e;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #F6F6F6;
+	width: 75px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	margin-top: 4px;
+	text-align: center;
+	line-height: 1;
+	left: 3px;
+}
+
+.dropdown-content a {
+	color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+	color: rgba(0, 0, 0, 1);
+	padding: 0px;
+	float: left;
+	top: 102%;
+	text-decoration: none;
+	display: block;
+	position: absolute;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.dropdown-content a:hover {
+	color: #25B15E;
+}

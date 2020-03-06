@@ -1,0 +1,89 @@
+#footer{
+	background-color: #2e3131;
+	float:left;
+	width: 100%;
+}
+.footer-mian{
+	width: 1000px;
+	margin:0 auto;
+	height: 100px;
+	margin-top: 20px;
+}
+.allright{
+	width: 300px;
+	color: #a9a9a9;
+	font-size: 12px;
+	position: absolute;
+	float: left;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 15px;
+}
+#footer a{
+	color: #f6f6f6ba;
+}
+#footer a:hover{
+	color: #25B15E;
+}
+.theme{
+	width: 400px;
+	color: #a9a9a9;
+	font-size: 12px;
+	position: absolute;
+	float: left;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 40px;
+}
+
+.beian{
+	width: 200px;
+	color: #a9a9a9;
+	font-size: 12px;
+	position: absolute;
+	float: left;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 60px;
+}
+.beian img{
+	width: 13.5px;
+	margin-top:1.5px;
+	float: left;
+}
+.beian a{
+	margin-left:1.5px;
+}
+/*回顶部  底部*/
+#dtop{
+	position: fixed;
+	margin-top: 300px;
+	right: 9px;
+	z-index: 50;
+}
+.bottom{
+	width: 35px;
+	height: 35px;
+	background-color: #b0aeb2;
+	margin-top: 8px;
+	border:#BFBFBF 1px solid;
+	border-radius: 2px;
+}
+.bottom:hover{
+	background-color: #179A16;
+	border:#179A16 1px solid;
+	transition:All 0.6s;
+}
+#dtop img{
+	width: 35px;
+}
+/*因为首页排版不知道那里出来问题，其他页面被迫做出修改*/
+#dtop1{
+	position: fixed;
+	top: 586px;
+	right: 9px;
+	z-index: 50;
+}
+#dtop1 img{
+	width: 35px;
+}

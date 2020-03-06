@@ -1,0 +1,341 @@
+/**/
+.body{
+	width:100%;
+}
+a{cursor: pointer;}
+/*旋转*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*中间部分居中*/
+.auto{
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	margin-top: 4px;
+	
+}
+/*定义一个card盒子，用了存放内容文字等等，设置背景外边距*/
+.card{
+	box-shadow: rgb(238, 238, 238) 1px 1px 2px;
+    background: rgb(255, 255, 255);
+    padding: 12px;
+    transition: box-shadow 0.3s ease 0s;
+}
+/*设置文章主体*/
+
+/*左边部分*/
+.main{
+	border-radius: 10px;
+	
+	float:left;
+	position:relative;
+	width: 700px;
+	z-index: 49;
+	transition: all 0.3s;
+}
+/*好像这个元素被我删除了，为了区别position，改了很多*/
+/*.main-other{
+	position:relative;
+	float: left;
+	left: 0px;
+	width: 700px;
+	z-index: 49;
+	transition: all 0.3s;
+}*/
+/*a标签的默认颜色！！很重要*/
+.main a{
+	text-decoration:none;
+	color: #25b15e;
+}
+/*main里面a标签鼠标移动的颜色，自动覆盖之前的a*/
+.main a:hover{
+	color:#25B15E;
+}
+/*定义一个盒子，用来存放那个小绿点和“最新”文字，可套用*/
+.main-news{
+	height: 27px;
+}
+
+/*小绿点*/
+.main-box{
+	position: absolute;
+	background-color: #25b15e;
+	width: 4px;
+	height: 15.5px;
+	margin-top: 8px;
+}
+/*“最新”文字*/
+.main-new{
+	position: relative;
+	float: left;
+	left:11px;
+	font-size: 16px;
+	font-weight:bold;
+	top: 5px;
+}
+/*每个盒子的大小间隔宽度*/
+.main-post{
+	position: relative;/*可去除*/
+	margin-top:10px;
+	width: 676px;
+	height: 150px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+/*盒子点击效果*/
+.post-box:hover{
+	box-shadow:#58666E 0px 0px 2px;
+}
+/*设置外边距下，并且使用相对定位，使文章不脱离*/
+.post-box{
+	position: relative;
+	margin-bottom: 13px;
+	box-shadow: 0 0 4px #cccbce;
+	/*box-shadow: 1px 1px 2px #eee;*/
+}
+/*设置main-post里面图片鼠标经过的效果*/
+/*.subimg:hover{
+	width: 200px;
+	height: 150px;
+	box-shadow:rgba(0,100,0,1) 0px 0px 5px;
+	border-radius: 10px;
+}*/
+/*设置main-post的图片盒子相关属性*/
+.subimg{
+	float: left;
+	border-radius: 10px;
+	/*图片居中*/
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+}
+.subimg a{
+	border-radius: 10px;
+}
+.subimg img{
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: #505050 0px 0px 1px;
+	transition: all 0.2s;
+}
+.subimg img:hover{
+	/*transform:rotateY(180deg) scale(1.01);垂直反转*/
+	transform:scale(1.03);
+}
+/*main-poat的标题*/
+.title{
+	position: absolute;
+	width: 459px;
+	height: 26.9px;
+	left:230px;
+	top:10.5%;
+	transition: all 0.3s;
+}
+/*覆盖之前main：a标签*/
+.title a{
+	font-size: 17px;
+	font-weight: bold;
+	color: #58666e;
+}
+/*无效的，此后已用百度所来的放大*/
+/*使用标签放大 百度的*/
+.title:hover{
+	float: left;
+	left:238px;
+	transform:scale(1.03);
+    /*-webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -o-transform:scale(1.03);
+    -ms-transform:scale(1.03);*/
+}
+/*简介内容*/
+.main-content{
+	position: absolute;
+	left:230px;
+	width: 440px;
+	height: 54.4px;
+	top:34%;
+}
+/*简介字体*/
+.main-content span{
+    line-height: 20px;
+    font-size: 15px;
+    color: #b0aeb2;
+    height: 54px;
+}
+/*各类标签*/
+.main-more{
+	position: relative;
+	float: left;
+	left:18px;
+	top:86%;
+}
+.main-more a{
+	color: #3333338c;
+	font-weight: bold;
+}
+.main-more a:hover{
+	font-size: 15px;
+	font-weight: bold;
+}
+.main-more span{
+	line-height: 0px;
+    font-size: 13px;
+    margin-right:18px;
+    color: rgba(0,0,0,0.55);
+}
+/*轮播图百度的*/
+#lunbo{
+	margin: auto;
+	margin-top: 22px;
+	width: 1000px;
+	height: 180px;
+	-webkit-animation-name: 'loop';
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    box-shadow: 0 0 4px #bbb;
+    border-radius: 6px;
+}
+#lunbo img{
+	width: 1000px;
+	height: 368px;
+	border-radius: 6px;
+}
+@-webkit-keyframes "loop"{
+    0% { background: url("../img/0.jpg") no-repeat;}
+    25% { background: url("../img/1.jpg") no-repeat;}
+    50% { background: url("../img/2.jpg") no-repeat;}
+    75% { background: url("../img/3.jpg") no-repeat;}
+    100% { background: url("../img/4.jpg") no-repeat;}
+}
+/*滥用了定位，打算重新写一篇，有些代码很多余*/
+/*首页右侧栏*/
+/*右边部分*/
+#sidebar{
+	width: 280px;
+	height:1000px;
+	float: right;
+	right: 0;
+	position: relative;
+}
+#sidebar .main-box{
+	margin-top: 9.5px;
+	position: absolute;
+}
+.authorname{
+	height: 280px;
+	margin-top: 11px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+#sidebar .main-new{
+	position: relative;
+}
+/*这个盒子没做好，不会自适应，改了一会，虽然做到了根据字自适应，但是感觉代码用来很多*/
+.authorimg{
+	height: 100px;
+	border-radius: 10px 10px 0 0;
+	background-image: url('../img/about_bg.png');
+}
+.QQ{
+	left:50%;
+	top: 50px;
+	margin-left: -42.5px;
+	position: absolute;
+	
+}
+.QQ img{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	border: rgba(255,255,255,.4) 4px solid;
+    transition:All 0.4s;
+}
+/*旋转放大*/
+.QQ img:hover{
+	transform:rotate(360deg) scale(1.1);
+}
+/*hitokoto*/
+.yiyan{
+	border: rgba(255,255,255,.4) 5px solid;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top: 138px;
+	left:3.5px;
+	padding: 5px;
+}
+#hitokoto{
+transform: translate(0%, 1%);
+color: #58666ebd;
+}
+/*还没做的那部分*/
+.authorrss{
+	height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 49;
+    margin-top: 131px;
+    text-align: center;
+}
+.authorrss a{
+	color: #58666ebd;
+    float: left;
+    padding: 5px;
+    margin-left: 14px;
+    margin-top: 1px;
+    font-weight: bold;
+}
+/*这个盒子没做好，不会自适应，改了一会，虽然做到了根据字自适应，但是感觉代码用来很多*/
+.sidebarname a{
+	color: #3333338f;
+    float: left;
+    margin: 3px 3px;
+    padding: 0 8px;
+    font-size: 13px;
+    height: 29px;
+    line-height: 29px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #CCCBCE;
+}
+.sidebarname a:hover{
+	background-color: #25B15E;
+	color: #f6f6f6;
+	transition:All 0.3s;
+	/*加载时长*/
+}
+/*tag标签*/
+.sidebarname {
+	width: 256px;
+    margin-top: 12px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #3333338f;
+}
+/*热门标签以下，用了存放小绿点和四个大字的，因为和前面main-news冲突*/
+.main-news2 {
+    height: 27px;
+    margin-top: 130px;
+}
+    /*其他页面中间部分*/
+#sidebarright{
+	width: 280px;
+    float: right;
+    right: 0;
+    position: relative;
+    margin-top: -685px;
+}
+.other{
+	width: 680px;
+	height: 480px;
+	position: relative;
+	border-radius: 10px;
+	 margin-top:10px;
+}

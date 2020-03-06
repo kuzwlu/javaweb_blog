@@ -1,0 +1,137 @@
+.loginimg{
+	width: 1000px;
+	height: 480px;
+	position: relative;
+	border-radius: 10px;
+	 margin-top:10px;
+	 padding: 0;
+}
+.loginimg img{
+	width: 1200px;
+}
+.loginbox{
+	width: 300px;
+    position: absolute;
+    height: 320px;
+    top: 100px;
+    left: 50%;
+    margin-left: -155px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 1px #cccbce;
+}
+.loginbox:hover{
+	box-shadow: 0 0 1px #25B15E;
+	transition:All 0.3s;
+}
+.logintext{
+	height: 50px;
+	text-align: center;
+	background-color: #ffffff80;
+	border-radius: 5px;
+}
+.logintext a{
+	position: relative;
+	font-size: 20px;
+	color: #58666E;
+	padding-right: 40px;
+	padding-left: 40px;
+	top:13px;
+	font-weight: bold;
+}
+.logintext a:hover{
+	color: #25B15E;
+}
+.logintext a:active{
+	color: #25B15E;
+}
+.logintext a:focus{
+	color: #25B15E;
+}
+.logintext2{
+	position: relative;
+	height: 250px;
+	text-align: center;
+	background-color: #ffffff80;
+	border-radius: 5px;
+	top: 16px;
+ 	overflow:hidden;
+}
+.user{
+	position: relative;
+	font-size: 16px;
+	color: #58666E;
+	top:35px;
+	font-weight: 550;
+}
+.password{
+	position: relative;
+	font-size: 16px;
+	color: #58666E;
+	top:60px;
+	font-weight: 550;
+}
+.user input{
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+    border: 1.2px solid rgba(46, 49, 49, 0.2);
+    background-color: transparent;
+}
+.password input{
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+    border: 1.2px solid rgba(46, 49, 49, 0.2);
+    background-color: transparent;
+}
+.denglu{
+	height: 40px;
+	position: relative;
+	top:90px;
+}
+.denglu button{
+	/*background-color: transparent;*/
+	outline: none;
+	border:0 none;
+	background-color: #b1257f24;
+	height: 40px;
+	width: 180px;
+	border-radius: 9px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.denglu button:hover{
+	background-color: #25b15e96;
+	transition:All 0.6s;
+	
+}
+.logintext2 form{
+	height: 252px;
+}
+
+
+
+#register .user{
+	top:27px;
+}
+#register .password{
+	top:41px;
+}
+.password2{
+	position: relative;
+	font-size: 16px;
+	color: #58666E;
+	top:55px;
+	font-weight: 550;
+}
+.password2 input{
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+    border: 1.2px solid rgba(46, 49, 49, 0.2);
+    background-color: transparent;
+}
+#register .denglu{
+	top:75px;
+}
