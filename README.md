@@ -1,7 +1,10 @@
 # javaweb_blog 
 使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6
+
 blog.sql文件是mysql的数据库，直接导入就行了
+
 由于是第一次解除javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均值来源网络）
+
 特别感谢我们敬爱的班主任-胡老师，感谢老师的教导
 
 ### 前台首页：(自己写的，布局参考的ARMX & VIRCLOUD.----基于typecho的一款特别好看的主题，使用了一言接口，ajax加载下一页(两种方式)，ajax评论，实现方式不太友好，代码在servlet里面)
