@@ -11,7 +11,7 @@
 
 
 ### 登录页面：(ajax判断验证码是否输入正确，过滤器自动登录)
-！[image.png]（http://ww1.sinaimg.cn/large/005KupFKgy1gckpyfy2qkj31hc0q6wk3.jpg）
+![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gckpyfy2qkj31hc0q6wk3.jpg)
 
 ### 后台首页：(使用cookie记录登录次数和登录时间及ip地址)
 ![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gckq1fknatj31hc0q6td2.jpg)
