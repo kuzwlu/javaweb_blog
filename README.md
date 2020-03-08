@@ -10,7 +10,7 @@ jar包地址：https://oss.qqgg.xyz/javaweb_blog.zip
 ![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gcml5xlcwyj309g08umxc.jpg)
 
 
-由于是第一次解除javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均值来源网络）
+由于是第一次接触javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均来源网络）
 
 特别感谢我们敬爱的班主任-胡老师，感谢老师的教导
 
