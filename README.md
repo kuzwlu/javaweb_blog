@@ -1,5 +1,5 @@
 # javaweb_blog 
-使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6,，tomcat版本为6.0
+使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6,，tomcat版本为6.0，（静态资源是UTF-8）
 
 blog.sql文件是mysql的数据库，直接导入就行了
 
