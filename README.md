@@ -4,7 +4,7 @@
 
 ### 特别感谢我们敬爱的班主任-胡老师，感谢老师的教导
 
-使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6,，tomcat版本为6.0，（静态资源是UTF-8）
+使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6,，tomcat版本为6.0，J2EE 5.0（静态资源是UTF-8）
 
 blog.sql文件是mysql的数据库，直接导入就行了
 
