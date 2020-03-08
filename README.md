@@ -3,7 +3,7 @@
 
 blog.sql文件是mysql的数据库，直接导入就行了
 
-jar包地址：https://oss.qqgg.xyz/jar%E5%8C%85.zip
+jar包地址：https://oss.qqgg.xyz/javaweb_blog.zip
 
 也可以自己去相关地址下载：
 
