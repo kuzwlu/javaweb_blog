@@ -1,4 +1,9 @@
-# javaweb_blog 
+# javaweb_blog （myeclipse可用）
+
+提示：由于是第一次接触javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均来源网络），有些甚至没有注释，ssm_blog项目是使用ssm，和maven框架完成的，因为有了这次的经验，ssm_blog写的还中规中矩一点
+
+### 特别感谢我们敬爱的班主任-胡老师，感谢老师的教导
+
 使用servlet，jsp，java及ajax完成的一个博客项目，软件为myeclipse8.5，JDK版本为1.7，mysql版本为5.6,，tomcat版本为6.0，（静态资源是UTF-8）
 
 blog.sql文件是mysql的数据库，直接导入就行了
@@ -10,9 +15,7 @@ jar包地址：https://oss.qqgg.xyz/javaweb_blog.zip
 ![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gcml5xlcwyj309g08umxc.jpg)
 
 
-由于是第一次接触javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均来源网络）
 
-特别感谢我们敬爱的班主任-胡老师，感谢老师的教导
 
 ### 前台首页：(自己写的，布局参考的ARMX & VIRCLOUD.----基于typecho的一款特别好看的主题，使用了一言接口，ajax加载下一页(两种方式)，ajax评论，实现方式不太友好，代码在servlet里面)
 ![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gckqld7zhkj31hc0q7nla.jpg)
