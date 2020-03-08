@@ -6,7 +6,8 @@ blog.sql文件是mysql的数据库，直接导入就行了
 jar包地址：https://oss.qqgg.xyz/jar%E5%8C%85.zip
 
 也可以自己去相关地址下载：
-![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gcml42j1znj309i08it8v.jpg)
+
+![image.png](http://ww1.sinaimg.cn/large/005KupFKgy1gcml5xlcwyj309g08umxc.jpg)
 
 
 由于是第一次解除javaweb项目，经验不足，写的很乱，导致自己都有点看不下去（后台模板及图片资源均值来源网络）
